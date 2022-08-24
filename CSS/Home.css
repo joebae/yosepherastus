@@ -1,0 +1,58 @@
+/* fonts */
+@font-face {
+  font-family: "Cigra";
+  src: url(../FONT/Cigra\ Free\ Demo.woff);
+}
+
+/* ANIMATIONS */
+@keyframes blowup {
+  0% {
+    transform: translateY(150px);
+  }
+
+  50% {
+    transform: translateY(0);
+    transform: translateX(0);
+  }
+}
+
+.jumbotron {
+  padding-top: 4rem;
+  background-color: #ffe69a;
+}
+
+#projects {
+  background-color: #ffe69a;
+}
+
+footer {
+  background-color: orange;
+}
+
+footer p {
+  font-weight: lighter;
+  color: antiquewhite;
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+#porto {
+  background-color: #ffe69a;
+  margin-top: -20px;
+}
+
+#projects1 img {
+  height: 200px;
+}
+
+#projects2 img {
+  height: 300px;
+}
+
+#projects3 img {
+  height: 400px;
+}
